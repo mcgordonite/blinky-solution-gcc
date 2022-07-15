@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/0.9.6/tools/projmgr/schemas/cproject.schema.json
 project:
   components:
-    - component: ARM::CMSIS:Core@5.5.0
+    - component: ARM::CMSIS:CORE@5.5.0
     - component: ARM::CMSIS:RTOS:Keil RTX@4.82.0
-    - component: ARM::Device:Startup@2.0.3
+    - component: ARM::Device:Startup&C Startup@2.0.3
   groups:
     - group: Source Files
       files:

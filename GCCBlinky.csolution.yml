@@ -6,9 +6,11 @@ solution:
     - type: GCC
       compiler: GCC
   target-types:
-    - type: Cortex M3
+    - type: CortexM3
       device: ARM::ARMCM3
       processor:
         fpu: "off"
         trustzone: "off"
         endian: little
+  projects:
+    - project: ./GCCBlinky.cproject.yml
