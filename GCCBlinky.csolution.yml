@@ -5,6 +5,9 @@ solution:
   build-types:
     - type: GCC
       compiler: GCC
+      misc:
+        - Link:
+          - --specs=nosys.specs
   target-types:
     - type: CortexM3
       device: ARM::ARMCM3
