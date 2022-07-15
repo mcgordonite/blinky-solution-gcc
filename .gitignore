@@ -1,3 +1,5 @@
 GCCBlinky.GCC+CortexM3.cprj
 RTE_Components.h
 .vscode/settings.json
+GCCBlinky.GCC+CortexM3_IntDir
+GCCBlinky.GCC+CortexM3_OutDir
