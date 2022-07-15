@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/0.9.6/tools/projmgr/schemas/csolution.schema.json
+solution:
+  packs:
+    - pack: ARM::CMSIS@5.8.0
+  build-types:
+    - type: GCC
+      compiler: GCC
+  target-types:
+    - type: Cortex M3
+      device: ARM::ARMCM3
+      processor:
+        fpu: "off"
+        trustzone: "off"
+        endian: little
