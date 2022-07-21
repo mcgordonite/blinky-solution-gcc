@@ -4,7 +4,8 @@
             "type": "cmsis-project-manager.build",
             "project": "${command:cmsis-project-manager.getProject}",
             "problemMatcher": [],
-            "label": "Build"
+            "label": "Build",
+            "group": "build"
         }
     ]
 }
